@@ -3,6 +3,7 @@ def oxford_comma(array)
     when 1
       return array[0]
     when 2
+      return array.join(" and ")
   string = array.join(", ")
   new_array = string.split(" ")
   length = new_array.length
